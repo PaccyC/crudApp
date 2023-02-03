@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+        background-color: deepskyblue;    
+        }
+        .container{
+            background-color: cornflowerblue;
+         
+            margin: 100px auto;
+            height: 400px;
+            width: 300px;
+            border-radius: 20px;
+        }
+        input{
+            margin-left: 75px;
+            height: 30px;
+            width: 200px;
+            margin-top: 30px;
+            border: none;
+        }
+        label{
+            margin-left: 75px;
+            text-align: center;
+            padding-bottom: 20px;
+            
+        }
+        .submit{
+            color: white;
+            background-color: deepskyblue;
+            border: none;
+            border-radius: 5px;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="#" method="get">
+        <div >
+        <label for="email">Email</label>
+        </div>
+        <input type="email" name="email" value="" required>
+         <div>
+        <label for="password" pattern="[a-zA-Z0-9] {5,}">Password</label>
+        </div>
+        <input type="password" name="email" value="" required>
+        <input type="submit" placeholder="submit" class="submit">
+        </div>
+
+    </form>
+</body>
+</html>
